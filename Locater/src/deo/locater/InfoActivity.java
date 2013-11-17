@@ -75,7 +75,7 @@ public class InfoActivity extends FragmentActivity {
 
         map.addMarker(new MarkerOptions()
                 .title("My Car")
-                .snippet("Bitch")
+                .snippet("")
                 .position(car));
 		
 	}
