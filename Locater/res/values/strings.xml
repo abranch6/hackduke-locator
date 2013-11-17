@@ -6,5 +6,9 @@
     <string name="hello_world">Hello world!</string>
     <string name="park">Park My Car!</string>
     <string name="Title">Welcome!</string>
+    <string name="longitudeLbl">Longitude: </string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="latitudeLbl">Latitude: </string>
+    
 
 </resources>
