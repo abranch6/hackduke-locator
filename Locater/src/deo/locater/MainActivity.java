@@ -15,7 +15,6 @@ import android.content.Intent;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
-import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
@@ -38,16 +37,11 @@ public class MainActivity extends Activity {
 		Criteria criteria = new Criteria();
 	    provider = service.getBestProvider(criteria, false);
 	    currentLocation = service.getLastKnownLocation(provider);
-		
-	    Log.i("Text","Test");
-	    
-	    final Context temp = this;
-	    
+			    	    
 		locationListener = new LocationListener() {
 		    public void onLocationChanged(Location location) {
 		      // Called when a new location is found by the network location provider.
 		    	currentLocation = location;
-		    	Toast.makeText(temp,"Updated GPS", Toast.LENGTH_SHORT).show();
 		    }
 
 		
