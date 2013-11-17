@@ -9,6 +9,8 @@
     <string name="longitudeLbl">Longitude: </string>
     <string name="title_activity_info">InfoActivity</string>
     <string name="latitudeLbl">Latitude: </string>
+    <string name="retrieve">Find My Car!</string>
+    
     
 
 </resources>
