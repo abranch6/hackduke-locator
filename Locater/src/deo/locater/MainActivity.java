@@ -108,8 +108,6 @@ public class MainActivity extends Activity {
 		Criteria criteria = new Criteria();
 	    provider = service.getBestProvider(criteria, false);
 	    //Location location = service.getLastKnownLocation(provider);
-	    Log.i("latitude",Double.toString(currentLocation.getLatitude()));
-	    Log.i("Longitude",Double.toString(currentLocation.getLongitude()));
 	    
 	    Intent intent = new Intent(this, InfoActivity.class);
 	    intent.putExtra(LATITUDE, currentLocation.getLatitude());

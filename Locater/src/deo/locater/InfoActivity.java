@@ -134,8 +134,6 @@ public class InfoActivity extends FragmentActivity {
 		    	if(!direction)
 		    	{
 		    		me = new LatLng(currentLocation.getLatitude(),currentLocation.getLongitude());
-		    		Log.i("Testing our input",Double.toString(me.latitude));
-		    		Log.i("Testing our input",Double.toString(me.longitude));
 		    		//me = new LatLng(36.0014,-78.9388);	    		
 		    		new DirectionAPI(map).execute(getURL(me,car));
 		    		direction = true;
